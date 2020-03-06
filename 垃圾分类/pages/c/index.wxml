@@ -1,0 +1,30 @@
+<!--pages/c/index.wxml-->
+<view class="b_max">
+  <view>
+    <image src="img/1.jpg"></image>
+    <text>奶茶</text>
+    <!-- <icon> 》 </icon> -->
+  </view>
+  <view>
+    <image src="img/2.jpg"></image>
+    <text>电池</text>
+  </view>
+  <view>
+    <image src="img/3.jpg"></image>
+    <text>外卖</text>
+  </view>
+  <view>
+    <image src="img/4.jpg"></image>
+    <text>化妆品</text>
+  </view>
+  <view>
+    <image src="img/5.jpg"></image>
+    <text>小龙虾</text>
+  </view>
+  <view>
+    <image src="img/6.jpg"></image>
+    <text>粽子</text>
+  </view>
+  <text class="b_te">分享</text>
+  <text class="b_tet">留言</text>
+</view>

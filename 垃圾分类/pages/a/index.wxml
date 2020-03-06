@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="one">
+  <view class="a_left">
+    <view class="a_one">湿垃圾</view>
+    <view class="a_two">干垃圾</view>
+    <view class="a_three">可回收的</view>
+    <view class="a_four">有害垃圾</view>
+  </view>
+  <scroll-view class="a_right">
+    <view class="a_rights">
+      <image src="https://img-blog.csdnimg.cn/20190927151124774.png"></image>
+      <rich-text>湿垃圾
+        <text>是指易腐的生物质。包括剩菜剩饭，瓜皮果核、花卉绿植、肉类碎骨、过期食品、餐厨垃圾等。</text>
+      </rich-text>
+      <rich-text>投放要求：
+        <text>
+        ●纯流质的食物垃圾，如牛奶等，应
+        直接倒进下水口
+        ●有包装物的湿垃圾应将包装物取出后分类投放，包装物请投放到对应
+        的可回收物容器或干垃圾容器
+      </text>
+      </rich-text>
+    </view>
+    <view class="a_views">
+      <rich-text>CoCo的青稞</rich-text>
+      <rich-text>秸秆杯</rich-text>
+      <rich-text>秸秆碗</rich-text>
+      <rich-text>姑娘果</rich-text>
+      <rich-text>菇娘果</rich-text>
+      <rich-text>秸秆杯</rich-text>
+      <rich-text>秸秆碗</rich-text>
+      <rich-text>姑娘果</rich-text>
+      <rich-text>菇娘果</rich-text>
+      <rich-text>秸秆杯</rich-text>
+      <rich-text>秸秆碗</rich-text>
+      <rich-text>姑娘果</rich-text>
+      <rich-text>菇娘果</rich-text>
+    </view>
+  </scroll-view>
+</view>
