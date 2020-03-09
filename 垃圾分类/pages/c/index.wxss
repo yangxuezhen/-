@@ -23,6 +23,7 @@ image{
   margin: 5px 0;
   /* position: relative; */
 }
+
 text{
   /* position: absolute; */
   font-size: 12px;
@@ -47,8 +48,8 @@ text{
   font-weight: 100;
 }
 .b_te{
-  bottom: 10px;
+  bottom: 40px;
 }
 .b_tet{
-  bottom: 45px;
+  bottom: 70px;
 }

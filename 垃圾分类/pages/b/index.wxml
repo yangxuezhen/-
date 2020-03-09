@@ -1,13 +1,15 @@
-<!--pages/b/index.wxml-->
+<!-- pages/b/index.wxml -->
 <view class="container">
   <rich-text>核桃蛋糕</rich-text>
-  <!-- <button plain="true">湿垃圾</button>
-  <button plain="true">干垃圾</button>
-  <button plain="true">可回收物</button>
-  <button plain="true">有害垃圾</button> -->
   <button class="btn1" plain="true">湿垃圾</button>
   <button class="btn1" plain="true">干垃圾</button>
   <button class="btn1" plain="true">可回收物</button>
   <button class="btn1" plain="true">有害垃圾</button>
   <text>留言</text>
+</view>
+<view class="max">
+  <navigator url="/pages/a/index">指南</navigator>
+  <navigator url="/pages/b/index">测试</navigator>
+  <navigator url="/pages/c/index">专题</navigator>
+  <navigator url="/pages/d/index">设置</navigator>
 </view>

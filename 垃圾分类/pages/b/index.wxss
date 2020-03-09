@@ -10,7 +10,6 @@ rich-text{
   margin-bottom: 20px;
 }
 .btn1{
-  /* width: 100px; */
   color: #000;
   margin: 5px 0;
   font-size: 12px;
@@ -27,6 +26,9 @@ text{
   border-radius: 15px;
   border: 1px solid #000;
   position: fixed;
-  bottom: 10px;
+  bottom: 40px;
   right: 20px;
 }
+
+
+

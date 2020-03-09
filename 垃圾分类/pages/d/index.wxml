@@ -1,25 +1,17 @@
 <!--pages/d/index.wxml-->
 <scroll-view class="d_max">
+<navigator url="/pages/a/index">调到一</navigator>
   <text class="d_one">语言</text>
   <rich-text>中文</rich-text>
   <!-- <radio checked="true"></radio> -->
   <rich-text>EngLish</rich-text>
   <text class="d_one">城市</text>
-  <rich-text>北京</rich-text>
-  <rich-text>长春</rich-text>
-  <rich-text>成都</rich-text>
-  <rich-text>重庆</rich-text>
-  <rich-text>长沙</rich-text>
-  <rich-text>大连</rich-text>
-  <rich-text>德阳</rich-text>
-  <rich-text>福州</rich-text>
-  <rich-text>光元</rich-text>
-  <rich-text>贵阳</rich-text>
-  <rich-text>广州</rich-text>
-  <rich-text>邯郸</rich-text>
-  <rich-text>哈尔滨</rich-text>
-  <rich-text>合肥</rich-text>
-  <rich-text>呼和浩特</rich-text>
-  <rich-text>海口</rich-text>
-  <text>首页</text>
+  <rich-text wx:for="{{arr}}">{{item.text}}</rich-text>
+  
 </scroll-view>
+<view class="max">
+  <navigator url="/pages/a/index">指南</navigator>
+  <navigator url="/pages/b/index">测试</navigator>
+  <navigator url="/pages/c/index">专题</navigator>
+  <navigator url="/pages/d/index">设置</navigator>
+</view>

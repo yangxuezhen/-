@@ -16,17 +16,20 @@
   line-height: 45px;
   font-size: 7px;
   color: #fff;
+  background: #ccc;
+  transition: 0.5s;
 }
-.a_one{
+.active1{
+  
     background: #956b58;
 }
-.a_two{
+.active2{
     background: #2d2926;
 }
-.a_three{
+.active3{
   background: #003d78;
 }
-.a_four{
+.active4{
   background: #fd4138;
 }
 .a_right{
@@ -64,4 +67,10 @@ text{
 }
 .a_views rich-text:nth-child(even){
   background: #fafafa;
+}
+.show{
+  display: block;
+}
+.hidden{
+  display: none;
 }

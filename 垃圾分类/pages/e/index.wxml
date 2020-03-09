@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="nav">
+    <view class="input">
+    <text>北京</text><input placeholder="搜索垃圾查看对应分类"></input>
+  </view>
+  </view>
+  <view class="fen">
+    <view class="left">
+     <block wx:for="{{data}}" wx:key="*this">
+      <view class="{{index==title?'active title':'title'}}" data-index="{{index}}"  bindtap="toggle">{{item.name}}</view>
+    </block>
+    </view>
+    <view class="right">
+      <block wx:for="{{data}}" wx:key="*this">
+        <view class="content"  wx:if="{{index==title}}">
+          <view><text>{{item.name}}</text>{{item.explain}}</view>
+          <view><text>投放要求</text>{{item.require}}</view>
+        </view>
+      </block>
+      <view class="lei">
+          <block wx:for="{{lei}}" wx:for-item="i" wx:for-index="ii" wx:key="*this">
+            <view class="{{ii%2==0?'':'active2'}}">{{i}}</view>
+          </block>
+        </view>
+    </view>
+  </view>
+</view>

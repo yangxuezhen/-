@@ -1,11 +1,11 @@
 {
   "pages": [
-    "pages/d/index",
+    "pages/c/index",
     "pages/a/index",
     "pages/b/index",
-    "pages/c/index"
+    "pages/d/index",
+    "pages/e/index"
   ],
-  
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

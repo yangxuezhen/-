@@ -2,8 +2,8 @@
 <view class="b_max">
   <view>
     <image src="img/1.jpg"></image>
-    <text>奶茶</text>
-    <!-- <icon> 》 </icon> -->
+      
+      <navigator url="/pages/e/index"><text>奶茶</text></navigator>
   </view>
   <view>
     <image src="img/2.jpg"></image>
@@ -27,4 +27,10 @@
   </view>
   <text class="b_te">分享</text>
   <text class="b_tet">留言</text>
+</view>
+<view class="max">
+  <navigator url="/pages/a/index">指南</navigator>
+  <navigator url="/pages/b/index">测试</navigator>
+  <navigator url="/pages/c/index">专题</navigator>
+  <navigator url="/pages/d/index">设置</navigator>
 </view>
