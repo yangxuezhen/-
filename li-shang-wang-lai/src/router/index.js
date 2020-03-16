@@ -1,60 +1,38 @@
-// import React , {Component} from 'react'
-// import { Link } from 'react-router-dom';
-// // import Tabbar from './tabbar/index.js'
-// import './index.css'
+import React,{Component} from 'react'
+import {Switch,Redirect,Route} from 'react-router-dom'
+import Header from '../component/header/header'
+import Shou from '../component/shouye/shouye'
+import Director from '../component/lishi/lishi'
+import Manage from '../component/lizhang/lizhang'
+import Gengduo from '../component/gengduo/gd'
+import About from '../component/about/about'
+import Index from './index.css'
+import SZ from '../component/about/sz/sz'
+import GY from '../component/about/gy/gy'
+import FX from '../component/about/fx/fx'
+import FK from '../component/about/fk/fk'
+import BJ from '../component/about/bj/bj'
+function router() { 
+    return(
+        <div id="max">
+            <div id="box">
+            <Header></Header>
+            <Switch>
+                <Route exact path='/' component={Shou}/>
+                <Route path='/manage' component={Manage}/>
+                <Route path='/director' component={Director}/>
+                <Route path='/gengduo' component={Gengduo}/>
+                <Route path='/about' component={About}/>
+                <Route path='/sz' component={SZ}/>
+                <Route path='/gy' component={GY}/>
+                <Route path='/fx' component={FX}/>
+                <Route path='/fk' component={FK}/>
+                <Route path='/bj' component={BJ}/>
+                <Route component={Shou}/>
+            </Switch>
+        </div>
+        </div>
+    )
+ }
 
-// const tabbarArr = [
-    
-//     {
-//         // img:'icon-home',
-//         text:'首页',
-//         path: "./"
-//     },
-//     {
-//         // img:'icon-fenlei',
-//         text:'分类',
-//         path: "./Mine"
-//     },
-//     {
-//         // img:'icon-gouwuche',
-//         text:'购物车',
-//         path:"./Court"
-//     },
-//     {
-//         // img:'icon-yonghu',
-//         text:'用户',
-//         path: "./Cerem"
-//     }
-// ]
-// export default class Tabbar extends Component {
-//     constructor(props){
-//         super(props)
-//         this.state = {
-//             index:0
-//         }
-//     }  
-//     render() {
-//       return (
-//         <div className="tabbar">
-//           <div className="tabbar-content">
-//               {
-//                   tabbarArr.map( (item,key)=>{
-//                       return(   
-//                           <Link to={item.path} className={"tarbar-item " + (this.state.index === key ? 'active' : '')} key={key} onClick={()=>this.itemChange(key)}>
-//                                   <div className={'iconfont '+ item.img}></div>
-//                                   <p>{item.text}</p>
-//                           </Link>
-//                       )
-//                   })
-//               }
-//           </div>
-      
-//         </div>
-//       )
-//     } 
-
-//     itemChange(key){ this.setState({ index: key })
-//     }
-// }  
-
-
+  export default router

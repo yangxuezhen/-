@@ -1,0 +1,65 @@
+#left{
+    top: 45px;
+}
+img{
+    width: 15px;
+    height: 19px;
+}
+
+.tabchange-box{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.tabchange-box ul{
+    width: 70%;
+    height: 40px;
+    margin: 0 auto;
+    background: #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid slateblue;
+}
+.tabchange-box ul li{
+    height: 100%;
+    width: 50%;
+    float: left;
+    /* background: #fff; */
+    text-align: center;
+    line-height: 40px;
+}
+.onto{
+    background-color: #199ed8;
+   color: #fff;
+}
+#th_bot{
+    width: 100%;
+    height: 60px;
+    background:#fff;
+    margin: 4px 0;
+    padding: 5px 0px;
+    line-height: 30px;
+
+}
+#bot_left{
+    font-size: 14px;
+    line-height: 25px;
+    background:#fff;
+    float: left;
+    padding-left: 10px;
+}
+#bot_right{
+    float: right;
+    text-align: right ;
+    padding-right: 10px;
+}
+#bot_right p{
+    font-size: 28px;
+    color: red;
+    font-weight: bold;
+}
+#bot_right span{
+    font-size: 14px;
+    color:#999;
+    margin: 0 5px;
+}
